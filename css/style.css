@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Spline+Sans:wght@300;400;500;600&display=swap");
+@font-face {
+  font-family: "Minangkabau";
+  src: url("font-file.ttf");
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  min-height: 3000px;
+  color: #777;
+  line-height: 1.7;
+}
+
+.navbar-brand h1 {
+  font-family: "Minangkabau";
+  color: #3b3486;
+}
+
+.navbar-brand h1 span {
+  color: rgb(179, 0, 36);
+}
+
+.nav-item .nav-link {
+  color: #3b3486;
+  font-size: 16px;
+  font-weight: 550;
+  transition: 0.5s;
+}
+.nav-item .nav-link:hover {
+  color: rgb(179, 0, 36);
+}
+
+.btn {
+  padding: 5px 5px;
+}
+.btn-brand {
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+  border-color: #3b3486;
+  background-color: #3b3486;
+}
+.btn-brand:hover {
+  color: #3b3486;
+  border-color: #3b3486;
+  background-color: #fff;
+}
